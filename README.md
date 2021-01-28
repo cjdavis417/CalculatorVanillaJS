@@ -1,2 +1,2 @@
-### Calculator
-# Created with vanilla JS
+# Calculator
+### Created with vanilla JS
