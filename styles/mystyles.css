@@ -1,0 +1,14 @@
+#pageheader {
+    background-color: crimson;
+}
+
+.pagetitle {
+    color: white;
+    align-content: center;
+    margin: 0 auto;
+    align-self: center;
+}
+
+.container {
+    display: flex;
+}
