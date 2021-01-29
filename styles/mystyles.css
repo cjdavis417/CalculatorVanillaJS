@@ -9,6 +9,13 @@
     align-self: center;
 }
 
-.container {
+.calccontainer {
     display: flex;
+    justify-content: space-between;
+}
+
+.calcbutton {
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
 }

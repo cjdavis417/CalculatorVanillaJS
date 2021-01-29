@@ -3,52 +3,59 @@
 <html>
 <header>
     <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap-grid.css">
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap-reboot.css">
     <link rel="stylesheet" type="text/css" href="styles\mystyles.css">
 </header>
 <body>
     <head>
         <div id="pageheader">
-            <h1 class="pagetitle">Calculator</h1>
+            <h1 class="pagetitle">Vanilla JS Calculator</h1>
         </div>
     </head>
-    
-    <div id="example" class="test"></div>
+    <div class="container">
     
     <form>
-        <input type="text" id="function" name="function" value="0">
-        <div class="container">
-            <input type="button" id="ac" name="ac" value="AC" onclick="zeroOut()">
-            <input type="button" id="posneg" name="posneg" value="+/-">
-            <input type="button" id="percent" name="percent" value="%">
-            <input type="button" id="divide" name="divide" value=&#247;>
+        <div class="calccontainer">
+            <input type="text" id="function" name="function" value="0" class="calcbutton">
         </div>
-        <div class="container">
-            <input type="button" id="one" name="one" value="1">
-            <input type="button" id="two" name="two" value="2">
-            <input type="button" id="three" name="three" value="3">
-            <input type="button" id="mult" name="mult" value=&#215;>
+        <div class="calccontainer">
+            <input type="button" id="ac" name="ac" value="AC" onclick="zeroOut()" class="calcbutton">
+            <input type="button" id="posneg" name="posneg" value="+/-" class="calcbutton">
+            <input type="button" id="percent" name="percent" value="%" class="calcbutton">
+            <input type="button" id="divide" name="divide" value=&#247; class="calcbutton">
         </div>
-        <div class="container">
-            <input type="button" id="four" name="four" value="4">
-            <input type="button" id="five" name="five" value="5">
-            <input type="button" id="six" name="six" value="6">
-            <input type="button" id="minus" name="minus" value="-">
+        <div class="calccontainer">
+            <input type="button" id="one" name="one" value="1" class="calcbutton">
+            <input type="button" id="two" name="two" value="2" class="calcbutton">
+            <input type="button" id="three" name="three" value="3" class="calcbutton">
+            <input type="button" id="mult" name="mult" value=&#215; class="calcbutton">
         </div>
-        <div class="container">
-            <input type="button" id="seven" name="seven" value="7">
-            <input type="button" id="eight" name="eight" value="8">
-            <input type="button" id="nine" name="nine" value="9">
-            <input type="button" id="plus" name="plus" value=&#43;>
+        <div class="calccontainer">
+            <input type="button" id="four" name="four" value="4" class="calcbutton">
+            <input type="button" id="five" name="five" value="5" class="calcbutton">
+            <input type="button" id="six" name="six" value="6" class="calcbutton">
+            <input type="button" id="minus" name="minus" value="-" class="calcbutton">
         </div>
-        <div class="container">
-            <input type="button" id="zero" name="zero" value="0">
-            <input type="button" id="decimal" name="decimal" value=".">
-            <input type="button" id="total" name="total" value=&#x3d;>
+        <div class="calccontainer">
+            <input type="button" id="seven" name="seven" value="7" class="calcbutton">
+            <input type="button" id="eight" name="eight" value="8" class="calcbutton">
+            <input type="button" id="nine" name="nine" value="9" class="calcbutton">
+            <input type="button" id="plus" name="plus" value=&#43; class="calcbutton">
+        </div>
+        <div class="calccontainer">
+            <input type="button" id="zero" name="zero" value="0" class="calcbutton">
+            <input type="button" id="decimal" name="decimal" value="." class="calcbutton">
+            <input type="button" id="total" name="total" value=&#x3d; class="calcbutton">
         </div>
         
     
     </form>
+        </div>
 </body>
 
 <script src="scripts\mainscript.js"></script>
+    <script src="scripts/bootstrap.bundle.js"></script>
+    <script src="scripts/bootstrap.js"></script>
 </html>

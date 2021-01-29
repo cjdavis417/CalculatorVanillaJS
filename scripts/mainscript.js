@@ -66,5 +66,9 @@ function total() {
     functionString.value = total;
 }
 
+function percent() {
+    
+}
+
 
 
