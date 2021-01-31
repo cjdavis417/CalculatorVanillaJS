@@ -1,8 +1,6 @@
 var myDate = new Date();
 myDate.toLocaleDateString()
 
-document.getElementById("example").innerHTML = myDate;
-
 // variable and constants
 var func = "";
 const functionString = document.getElementById("function");
@@ -56,9 +54,12 @@ function zeroOut() {
 }
 
 function addToFunc(a, b) {
+    
+    if (a == 0) {
+        a.slice(1);
+        }
     func = func + a.toString();
     functionString.value = func;
-    console.log(func);
 }
                                                  
 function total() {
