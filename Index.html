@@ -12,47 +12,44 @@
     <head>
         <nav class="navbar navbar-light bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="" alt="" width="30" height="24" class="d-inline-block align-top">
-                    Vanilla JS Calculator
-                </a>
+                <a class="navbar-brand" href="#">Vanilla JS Calculator</a>
             </div>
         </nav>
     </head>
     <div class="container">
     
     <form>
-        <div class="calccontainer">
+        <div class="d-flex">
             <input type="text" id="function" name="function" value="0" class="calcbutton">
         </div>
-        <div class="calccontainer">
+        <div class="d-flex">
             <input type="button" id="ac" name="ac" value="AC" onclick="zeroOut()" class="calcbutton">
             <input type="button" id="posneg" name="posneg" value="+/-" class="calcbutton">
             <input type="button" id="percent" name="percent" value="%" class="calcbutton">
             <input type="button" id="divide" name="divide" value=&#247; class="calcbutton">
         </div>
-        <div class="calccontainer">
+        <div class="d-flex">
             <input type="button" id="one" name="one" value="1" class="calcbutton">
             <input type="button" id="two" name="two" value="2" class="calcbutton">
             <input type="button" id="three" name="three" value="3" class="calcbutton">
             <input type="button" id="mult" name="mult" value=&#215; class="calcbutton">
         </div>
-        <div class="calccontainer">
+        <div class="d-flex">
             <input type="button" id="four" name="four" value="4" class="calcbutton">
             <input type="button" id="five" name="five" value="5" class="calcbutton">
             <input type="button" id="six" name="six" value="6" class="calcbutton">
             <input type="button" id="minus" name="minus" value="-" class="calcbutton">
         </div>
-        <div class="calccontainer">
+        <div class="d-flex">
             <input type="button" id="seven" name="seven" value="7" class="calcbutton">
             <input type="button" id="eight" name="eight" value="8" class="calcbutton">
             <input type="button" id="nine" name="nine" value="9" class="calcbutton">
             <input type="button" id="plus" name="plus" value=&#43; class="calcbutton">
         </div>
-        <div class="calccontainer">
-            <input type="button" id="zero" name="zero" value="0" class="calcbutton">
-            <input type="button" id="decimal" name="decimal" value="." class="calcbutton">
-            <input type="button" id="total" name="total" value=&#x3d; class="calcbutton">
+        <div class="d-flex">
+            <input type="button" id="zero" name="zero" value="0" class="calcbutton flex-shrink-1">
+            <input type="button" id="decimal" name="decimal" value="." class="calcbutton flex-shrink-1">
+            <input type="button" id="total" name="total" value=&#x3d; class="calcbutton flex-xxl-grow-1">
         </div>
         
     

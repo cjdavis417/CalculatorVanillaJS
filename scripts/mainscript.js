@@ -54,12 +54,12 @@ function zeroOut() {
 }
 
 function addToFunc(a, b) {
-    
-    if (a == 0) {
-        a.slice(1);
-        }
     func = func + a.toString();
     functionString.value = func;
+    if (functionString.charAt(1) == "0") {
+        functionString.slice(0,1);
+        console.log("in this function")
+        }
 }
                                                  
 function total() {
